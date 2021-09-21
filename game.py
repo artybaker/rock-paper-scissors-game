@@ -20,6 +20,8 @@ computer_choice = random.choice(options)
 print("Computer Chose:")
 print(computer_choice)
 
+#Worked with Andrew from this point forward
+
 if (computer_choice == user_choice):
     print("You chose the same option, please choose again")
 elif (user_choice == "rock" ):
