@@ -1,5 +1,7 @@
 import random
 
+print("Welcome 'Player One' to my rock, paper, scissors game")
+
 print("Rock, Paper, Scissors, Shoot!")
 
 # PROMPT USER FOR INPUT
@@ -26,16 +28,16 @@ if (computer_choice == user_choice):
     print("You chose the same option, please choose again")
 elif (user_choice == "rock" ):
     if (computer_choice == "scissors"):
-        print("rock beats scissors, congratulations you won")
+        print("rock beats scissors, congratulations 'Player One' wins")
     else:
         print("paper covers rock, sorry you lost. Computer Wins")
 elif (user_choice == "scissors"):
     if (computer_choice == "rock"):
         print("rock beats scissors, sorry you lost. Computer Wins")
     else:
-        print("scissors cust paper, congratulations you won")
+        print("scissors cust paper, congratulations 'Player One' wins")
 elif (user_choice == "paper"):
     if (computer_choice == "rock"):
-        print("paper covers rock, congratulations you won")
+        print("paper covers rock, congratulations 'Player One' wins")
     else:
         print("scissors cuts paper, sorry you lost. Computer Wins")
