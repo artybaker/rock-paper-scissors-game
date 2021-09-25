@@ -28,14 +28,14 @@ elif (user_choice == "rock" ):
     if (computer_choice == "scissors"):
         print("rock beats scissors, congratulations you won")
     else:
-        print("paper covers rock, sorry you lost")
+        print("paper covers rock, sorry you lost. Computer Wins")
 elif (user_choice == "scissors"):
     if (computer_choice == "rock"):
-        print("rock beats scissors, sorry you lost")
+        print("rock beats scissors, sorry you lost. Computer Wins")
     else:
         print("scissors cust paper, congratulations you won")
 elif (user_choice == "paper"):
     if (computer_choice == "rock"):
         print("paper covers rock, congratulations you won")
     else:
-        print("scissors cuts paper, sorry you lost")
+        print("scissors cuts paper, sorry you lost. Computer Wins")
