@@ -13,7 +13,7 @@ print(user_choice)
 options = ["rock", "paper", "scissors"]
 
 if user_choice not in options:
-    print("Not valid option")
+    print("Sorry that is not a valid option")
     exit()
 
 computer_choice = random.choice(options)
