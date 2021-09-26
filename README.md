@@ -13,5 +13,6 @@ Following this step, navigate from the command line to the root directory before
 Since we are using environment variables and require a third party package to read them from the ".env" file, we need to use a new and different specific python environment which will allow us to install the necessary packages. 
 
 Create and activate a new Anaconda virtual environment that is specific for the project. 
+
     conda create -n my-game-env python=3.8 # first time only
     conda activate my-game-env
