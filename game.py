@@ -41,3 +41,5 @@ elif (user_choice == "paper"):
         print("paper covers rock, congratulations 'Player One' wins")
     else:
         print("scissors cuts paper, sorry you lost. Computer Wins")
+
+print ("Thanks for playing, please play again!")
