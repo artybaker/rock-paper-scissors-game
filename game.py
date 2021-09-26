@@ -1,6 +1,12 @@
-import random
+import os 
+from dotenv import load_dotenv
 
-print("Welcome 'Player One' to my rock, paper, scissors game")
+load_dotenv()
+
+PLAYER_NAME = os.getenv("PLAYER_NAME", default="Player One")
+print("Welcome", PLAYER_NAME, "to my Rock-Paper-Scissors game...")
+
+import random
 
 print("Rock, Paper, Scissors, Shoot!")
 
