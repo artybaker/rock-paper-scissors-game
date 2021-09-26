@@ -5,7 +5,7 @@
     - Python 3.7
     - Pip
 # Repo Setup & Installation 
-Fork this [remote repository](https://github.com/basilbseiso/rock-paper-scissors-game) under your own control and "clone" or download your remote copy onto your local device. 
+Fork this [remote repository](https://github.com/prof-rossetti/intro-to-python/blob/main/exercises/rock-paper-scissors/README.md) under your own control and "clone" or download your remote copy onto your local device. 
 Following this step, navigate from the command line to the root directory before you run other commands. 
     
     cd rock-paper-scissors-game
