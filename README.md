@@ -9,3 +9,6 @@ Fork this [remote repository](https://github.com/basilbseiso/rock-paper-scissors
 Following this step, navigate from the command line to the root directory before you run other commands. 
     
     cd rock-paper-scissors-game
+# Environment Setup
+Create and activate a new Anaconda virtual environment that is specific for the project. 
+Since we are using environment variables and require a third party package to read them from the ".env" file, we need to use a new and different specific python environment which will allow us to install the necessary packages. 
