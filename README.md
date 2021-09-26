@@ -20,3 +20,11 @@ Create and activate a new Anaconda virtual environment that is specific for the 
 After activating the virtual environment, install package dependencies
 
     pip install -r requirements.txt
+# Customization
+In the root directory of your local repository create a new file called ".env" and update the contents of the file to specify your player name. Also be sure to save the ".env" file once your finished setting it up. 
+
+    PLAYER_NAME="Player One"
+# Usage
+Run the python script on your local terminal 
+
+    python game.py
