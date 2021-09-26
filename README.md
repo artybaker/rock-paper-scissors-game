@@ -16,3 +16,7 @@ Create and activate a new Anaconda virtual environment that is specific for the 
 
     conda create -n my-game-env python=3.8 # first time only
     conda activate my-game-env
+
+After activating the virtual environment, install package dependencies
+
+    pip install -r requirements.txt
